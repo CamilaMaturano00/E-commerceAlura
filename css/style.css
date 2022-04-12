@@ -1,0 +1,11 @@
+:root{
+    --background-blanco: #FFFFFF;
+    --background-celeste: #EAF2FD;
+    --background-gris: #E5E5E5;
+    --fuente-preto: #464646;
+    --fuente-celeste: #2A7AE4;
+}
+
+h2{
+    color: var(--fuente-preto);
+}
