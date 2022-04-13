@@ -6,6 +6,12 @@
     --fuente-celeste: #2A7AE4;
 }
 
-h2{
+body{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+}
+h1{
     color: var(--fuente-preto);
+    font-size: 30px;
+    font-weight: 700 ;
 }
