@@ -1,16 +1,17 @@
 .header__container{
     padding-top: 20px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     margin-bottom: 30px;
+
 }
 .header__buscador{
-    padding: 8px 80px 8px 80px;
+    padding: 8px 200px 8px 10px;
     background-color: #F5F5F5;
     border-radius: 20px;
     border: none;
-    text-align: left;
     margin-top: 10px;
+    
 }
 .header__logo{
     max-width: 176px;
@@ -24,18 +25,51 @@
 }
 .header__boton{
     position: relative;
-    color:var(--fuente-celeste);
+    color:var(--background-azul);
     padding: 10px 50px 10px 50px;
-    border: 1px solid var(--fuente-celeste);
+    border: 1px solid var(--fuente-azul);
     top: 15px;
+    font-family: var(--raleway);
+    font-weight: 500 ;
+}
+.header__boton:hover{
+    background-color: var(--background-celeste);
 }
 .header__encabezado{
+    position: static;
+}
+.header__encabezado img{
     width: 100%;
-    height: 400px;
-
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 41.15%, rgba(0, 0, 0, 0.8) 100%);
+}
+.header__promociones{
+    position: absolute;
+    top: 215px;
+    color: #fff;
+    font-family: var(--raleway);
+    line-height: 1.5;
+}
+.header__promociones h1{
+    font-weight: 700 ;
+    font-size: 52px;
+}
+.header__promociones p{
+    font-size: 22px;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+.header__promociones a{
+    font-size: 14px;
+    font-weight: 400;
+    padding: 10px 20px 10px 20px;
+    background-color: var(--background-azul);
+}
+.header__promociones a:hover{
+    background-color: #6A7AE4;
 }
 
-@media (max-width:768px) {
+
+@media (max-width: 769px) {
     .header__container{
         justify-content: flex-start;
         margin-bottom: 30px;
@@ -58,7 +92,17 @@
         margin-left: 30px;
         top: 5px;
     }
-    .header__encabezado{
+    .header__encabezado img{
+        height: 170px;
     }
-
+    .header__promociones{
+        top: 150px;
+        line-height: 1;
+    }
+    .header__promociones h1{
+        font-size: 30px;
+    }
+    .header__promociones p {
+        font-size: 15px;
+    }
 }

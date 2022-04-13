@@ -1,17 +1,21 @@
 :root{
     --background-blanco: #FFFFFF;
     --background-celeste: #EAF2FD;
+    --background-azul: #2A7AE4; ;
     --background-gris: #E5E5E5;
     --fuente-preto: #464646;
-    --fuente-celeste: #2A7AE4;
+    --fuente-azul: #2A7AE4;
+    --montserrat: 'Monserrat', sans-serif;
+    --open-sans: 'Open Sans', sans-serif;
+    --raleway: 'Raleway', sans-serif;
 }
 
-body{
-    font-family: 'Raleway', sans-serif;
-    font-weight: 400;
+*{
+    font-family: var(--raleway);
 }
-h1{
-    color: var(--fuente-preto);
-    font-size: 30px;
-    font-weight: 700 ;
+.container{
+    padding-right: 6%;
+    padding-left: 6%;
 }
+
+ 
