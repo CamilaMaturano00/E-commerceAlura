@@ -49,7 +49,14 @@ main{
     box-shadow: 2px 2px 2px #CCC;
     transition: all .5s;
 }
-
+.footer__copyright{
+    text-align: center;
+    padding-top: 30px ;
+    padding-bottom: 30px;
+    font-family: var(--raleway);
+    font-weight: 700;
+    color: var(--fuente-preto);
+}
 @media (max-width: 769px) {
     .section__productos{
         flex-wrap: wrap;   

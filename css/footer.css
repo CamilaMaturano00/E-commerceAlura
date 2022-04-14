@@ -43,6 +43,11 @@
     padding: 13px 20px 13px 20px;
     background-color: var(--background-azul);
 }
+.btn-enviar:active{
+    box-shadow: 2px 2px 2px #CCC;
+    transition: all .5s;
+}
+
 
 @media (max-width: 769px) {
     .footer__container{
