@@ -1,13 +1,11 @@
 main{
     background-color: var(--background-gris);
-    padding-top: 70px;
-    padding-bottom: 70px;
 }
 
 .section__header-productos{
     display: flex;
     justify-content: space-between;
-    margin-bottom: 25px;
+    vertical-align:bottom;
 }
 .section__header-productos h2{
     font-family: var(--raleway);
@@ -49,11 +47,15 @@ main{
 }
 .producto:hover{
     box-shadow: 2px 2px 2px #CCC;
+    transition: all .5s;
 }
 
 @media (max-width: 769px) {
     .section__productos{
         flex-wrap: wrap;   
+    }
+    .producto{
+        margin-bottom: 20px;
     }
 
 }

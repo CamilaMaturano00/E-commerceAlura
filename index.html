@@ -16,8 +16,8 @@
 
 </head>
 <body>
-    <header class="header ">
-        <div class="header__container container">
+    <header class="header container">
+        <div class="header__container ">
             <div>
                 <img class="header__logo" src="img/Logo.svg" alt="">
             </div>
@@ -26,22 +26,21 @@
                 <img class="header__icon" src="img/Vector.png" alt="">
             </div>
             <div>
-                <a class="header__boton boton" href="">Login</a>
+                <a class="header__login" href="">Login</a>
             </div>            
         </div>
-        <section>
-            <div class="header__encabezado"> 
-                <img  src="img/Hero.png" alt="">
-                <div class="header__promociones container">
-                    <h1>Febrero Promocional</h1>
-                    <p>Productos selecionados con 33% de descuento</p>
-                    <a class="" href="" >Ver Consolas</a>
-                </div>
-                 
-            </div>            
-        </section>
-
     </header>
+    <section>
+        <div class="header__encabezado"> 
+            <img  src="img/Hero.png" alt="">
+            <div class="header__promociones container">
+                <h1>Febrero Promocional</h1>
+                <p>Productos selecionados con 33% de descuento</p>
+                <a class="header__boton" href="" >Ver Consolas</a>
+            </div>
+             
+        </div>            
+    </section>
     <main>
         <section class="container">
             <div>
@@ -180,12 +179,12 @@
     </main>
     <footer>
         <div class="footer__container container">
-            <div class="footer_logo">
-                <img src="img/Vector (1).png" alt=""><h1>AluraGeek</h1>
+            <div>
+                <img class="footer_logo" src="img/Logo.svg" alt="">
             </div>
-            <div class="footer__enlaces">
-                <ul>
-                    <li><a href="">Quienes Somos</a></li>
+            <div >
+                <ul class="footer__enlaces">
+                    <li ><a href="">Quienes Somos</a></li>
                     <li><a href="">Politica de privacidad</a> </li>
                     <li><a href="">Programa de fidelidad</a></li>
                     <li><a href="">Nuestras Tiendas</a></li>
@@ -196,8 +195,8 @@
             <div class="footer__contacto">
                 <p>Hable con nosotros</p>
                 <input type="text" name="name" id="name" placeholder="Nombre">
-                <textarea name="mensaje" id="" cols="30" rows="10" placeholder="Escribe tu mensaje"></textarea>
-                <!-- <a href="">Enviar mensaje</a> -->
+                <input name="mensaje" id="mensaje" cols="30" rows="10" placeholder="Escribe tu mensaje"></input>
+                <a class=" btn-enviar" href="">Enviar mensaje</a> 
             </div>
         </div>
         <div class="footer__copyright"> @Copyright Camila Maturano 2022</div>

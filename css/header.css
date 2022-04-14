@@ -1,9 +1,6 @@
 .header__container{
-    padding-top: 20px;
     display: flex;
     justify-content: space-between;
-    margin-bottom: 30px;
-
 }
 .header__buscador{
     padding: 8px 200px 8px 10px;
@@ -23,7 +20,7 @@
     left: -35px;
     top: 5px;
 }
-.header__boton{
+.header__login{
     position: relative;
     color:var(--background-azul);
     padding: 10px 50px 10px 50px;
@@ -32,7 +29,7 @@
     font-family: var(--raleway);
     font-weight: 500 ;
 }
-.header__boton:hover{
+.header__login:hover{
     background-color: var(--background-celeste);
 }
 .header__encabezado{
@@ -58,13 +55,13 @@
     margin-bottom: 20px;
     font-weight: 500;
 }
-.header__promociones a{
+.header__boton{
     font-size: 14px;
     font-weight: 400;
     padding: 10px 20px 10px 20px;
     background-color: var(--background-azul);
 }
-.header__promociones a:hover{
+.header__boton:hover{
     background-color: #6A7AE4;
 }
 
